@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="survey">
+        <h1 id="tophd">Engineering Survey</h1><br>
+        <div>
+            <label for="name"><b>Enter Your Full Name:</b></label>
+            <input type="text" placeholder="Surname First" id="name"><br>
+            <hr>
+            <label for="college"><b>Enter Your College Name:</b></label>
+            <input type="text" placeholder="College Name" id="college"><br>
+            <hr>
+            <label for="class"><b>Enter Your Class</b> </label><br><br>
+            <input type="radio" name="class">First Year
+            <input type="radio" name="class">Second Year
+            <input type="radio" name="class">Third Year
+            <input type="radio" name="class">Fourth Year <br>
+            <hr>
+            <label for=""><b>Gender</b></label><br><br>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="Gender">Female <br>
+            <hr>
+            <label for="branch"><b>Your Branch</b></label>
+            <select name="branch" id="branch">Select Your Branch
+                <option value="Nothing">Select Your Branch</option>
+                <option value="branch">Information Technology</option>
+                <option value="branch">Computer Engineering</option>
+                <option value="branch">AIML</option>
+                <option value="branch">Mechanical Engineering</option>
+                <option value="branch">Civil Engineering</option>
+                <option value="branch">Other</option>
+            </select><br>
+            <hr>
+            <label for="domain"><b>Select Your Intrested Domains</b></label><br><br>
+            <input type="checkbox" id="domain" name="domain">Software Engineering
+            <input type="checkbox" id="domain" name="domain">Artificial Intelligence
+            <input type="checkbox" id="domain" name="domain">Cyber Security
+            <input type="checkbox" id="domain" name="domain">Machine Learning
+            <input type="checkbox" id="domain" name="domain">Cloud Computing
+            <input type="checkbox" id="domain" name="domain">Data Science
+            <input type="checkbox" id="domain" name="domain">Web Development
+            <br>
+            <hr>
+            <label for="email"><b>Enter Your Email</b></label><br><br>
+            <input type="email"><br>
+            <hr>
+            <label for="comments"><b>Feedback</b></label><br><br>
+            <textarea name="comments" id="comments"
+                placeholder="Give Your Feedback For this Survey......"></textarea><br>
+            <hr>
+            <a href="page2.html">Submit</a>
+        </div>
+    </form>
+</body>
+
+</html>
